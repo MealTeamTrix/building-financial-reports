@@ -1,12 +1,24 @@
-# Project Name
-This project is ________. (Describe the main goals of the project. Limit to 1-2 sentences)
+# Financial Ratio Analysis
 
-## Description
-Optional section to provide a more detailed overview of the project.
+This script performs a basic financial ratio analysis by merging an income statement and balance sheet, computing key profitability and leverage ratios, and visualizing the relationship between them for real estate companies.
 
-## Get Started
-This section should be used to summarize the project and how to get started after cloning. Once this section 
-is edited, it will show up on the Project Dashboard tab. 
+## Features
 
-If you completely delete this section, the "Get Started" widget will be removed from the Project Dashboard.
+- Merges financial datasets by year, company, and type.
+- Computes:
+  - **Gross Margin Ratio** (profitability)
+  - **Debt-to-Equity Ratio** (leverage)
+- Provides summary statistics by company type.
+- Visualizes leverage vs profitability for real estate firms.
 
+## Getting Started
+
+### Prerequisites
+
+- Python 3.7+
+- `pandas`, `numpy`, `seaborn`, `matplotlib`, `openpyxl`
+
+### Installation
+
+```bash
+pip install -r requirements.txt
